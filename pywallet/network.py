@@ -294,8 +294,8 @@ class ZelcashMainNet(object):
     """
     NAME = "Zelcash Main Net"
     COIN = "ZEL"
-    SCRIPT_ADDRESS = 0x1C, 0xBD  # int(0x1C), int(0x1C) = 28, 189
-    PUBKEY_ADDRESS = 0x1C, 0xB8  # int(0x1C), int(0x1C) = 28, 184
+    SCRIPT_ADDRESS = 0x1C, 0xBD  # int(0x1C), int(0xBD) = 28, 189
+    PUBKEY_ADDRESS = 0x1C, 0xB8  # int(0x1C), int(0xB8) = 28, 184
     SECRET_KEY = 0x80      # int(0x80) = 128
     EXT_PUBLIC_KEY = 0x0488B21E
     EXT_SECRET_KEY = 0x0488ADE4
