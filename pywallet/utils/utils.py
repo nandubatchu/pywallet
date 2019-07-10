@@ -26,6 +26,8 @@ def ensure_str(data):
 def chr_py2(num):
     """Ensures that python3's chr behavior matches python2."""
     if six.PY3:
+        if isinstance(num, tuple):
+            return bytes(num)
         return bytes([num])
     return chr(num)
 

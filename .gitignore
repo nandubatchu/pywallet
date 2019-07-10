@@ -12,3 +12,5 @@ pywallet.egg-info
 pywallet.egg-info
 Icon
 /notes.txt
+.vscode/settings.json
+.DS_Store

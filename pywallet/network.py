@@ -285,3 +285,33 @@ class RavenTestNet(object):
     EXT_PUBLIC_KEY = 0x043587CF
     EXT_SECRET_KEY = 0x04358394
     BIP32_PATH = "m/44'/175'/0'/"
+
+class ZelcashMainNet(object):
+    """Zelcash MainNet version bytes
+
+    Primary version bytes from:
+    https://github.com/zelcash/zelcash/blob/master/src/chainparams.cpp
+    """
+    NAME = "Zelcash Main Net"
+    COIN = "ZEL"
+    SCRIPT_ADDRESS = 0x1C, 0xBD  # int(0x1C), int(0x1C) = 28, 189
+    PUBKEY_ADDRESS = 0x1C, 0xB8  # int(0x1C), int(0x1C) = 28, 184
+    SECRET_KEY = 0x80      # int(0x80) = 128
+    EXT_PUBLIC_KEY = 0x0488B21E
+    EXT_SECRET_KEY = 0x0488ADE4
+    BIP32_PATH = "m/44'/175'/0'/"
+
+class ZelcashTestNet(object):
+    """Zelcash TestNet version bytes
+
+    Primary version bytes from:
+    https://github.com/zelcash/zelcash/blob/master/src/chainparams.cpp
+    """
+    NAME = "Zelcash Test Net"
+    COIN = "ZEL"
+    SCRIPT_ADDRESS = 0x1C, 0xBA  # int(0x1C), int(0xBA) = 28, 186
+    PUBKEY_ADDRESS = 0x1D, 0x25  # int(0x1D), int(0x25) = 29, 37
+    SECRET_KEY = 0xEF      # int(0xEF) = 239
+    EXT_PUBLIC_KEY = 0x043587CF
+    EXT_SECRET_KEY = 0x04358394
+    BIP32_PATH = "m/44'/175'/0'/"

@@ -673,6 +673,10 @@ class Wallet(object):
             response = RavenMainNet
         elif network == 'raven_testnet' or network == 'RVNTEST':
             response = RavenTestNet
+        elif network == 'zelcash' or network == 'ZEL':
+            response = ZelcashMainNet
+        elif network == 'zelcash_testnet' or network == 'ZELTEST':
+            response = ZelcashTestNet
         else:
             response = network
         return response

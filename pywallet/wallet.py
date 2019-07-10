@@ -97,6 +97,10 @@ def get_network(network='btctest'):
         return RavenMainNet
     elif network == "raven_testnet" or network == "rvntest":
         return RavenTestNet
+    elif network == "zelcash" or network == "zel":
+        return ZelcashMainNet
+    elif network == "zelcash_testnet" or network == "zeltest":
+        return ZelcashTestNet
 
     return BitcoinTestNet
 
